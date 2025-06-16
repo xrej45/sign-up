@@ -1,0 +1,42 @@
+@import url(reset.css);
+@font-face {
+    font-family: "Norse";
+    src: url(Norse-Bold.otf);
+}
+aside{
+    width: 30%;
+    background-image: url(fjords.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    
+}
+.bar{
+    position: absolute;
+    top:30%;
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 100%;
+    opacity: 100%;
+    text-align: center;
+    height: 10%;
+    
+}
+.bar img{
+    height: 6rem;
+}
+#odinTxt{position: relative;
+    bottom: 10%;
+    color: white;
+    font-family: "Norse";
+    font-size: 6rem;
+}
+/* #odinTxt::before{
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    content: "";
+
+    background-image: url(odin.png);
+    background-size: cover;
+    background-repeat: repeat;} */
